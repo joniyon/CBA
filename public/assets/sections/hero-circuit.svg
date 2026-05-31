@@ -1,0 +1,14 @@
+<svg viewBox="0 -310 1485 1140" xmlns="http://www.w3.org/2000/svg">
+  <!-- Hero circuit motif extracted verbatim from Hero_Section.svg.
+       .track = the route; a blue pulse is animated along each via stroke-dash.
+       .node  = glowing connection points (#375DFB). -->
+  <path class="track" d="M1440 404.765H1195.01C1186.72 404.765 1180.01 411.481 1180.01 419.765V502C1180.01 510.284 1173.29 517 1165.01 517H320.166C311.881 517 305.166 510.284 305.166 502V419.765C305.166 411.481 298.45 404.765 290.166 404.765H169.089C160.804 404.765 154.089 398.049 154.089 389.765V293C154.089 284.716 147.373 278 139.089 278H6.49095e-05" fill="none" stroke="var(--circuit-track)" stroke-width="3"/>
+  <path class="track" d="M1440 705.765H1195.01C1186.72 705.765 1180.01 712.481 1180.01 720.765V803C1180.01 811.284 1173.29 818 1165.01 818H320.166C311.881 818 305.166 811.284 305.166 803V720.765C305.166 712.481 298.45 705.765 290.166 705.765H169.089C160.804 705.765 154.089 699.049 154.089 690.765V594C154.089 585.716 147.373 579 139.089 579H0.00012207" fill="none" stroke="var(--circuit-track)" stroke-width="3"/>
+  <path class="track" d="M1180.01 111.765C1180.01 -56.738 1180.01 410.854 1180.01 501.564C1180.01 509.848 1173.29 516.5 1165.01 516.5H739.5H320.166C311.881 516.5 305.166 509.784 305.166 501.5V126.765C305.166 118.481 298.45 111.765 290.166 111.765H169.088C160.804 111.765 154.089 105.049 154.089 96.7652V5.18962e-06C154.089 -8.28427 147.373 -15 139.089 -15H0" fill="none" stroke="var(--circuit-track)" stroke-width="3"/>
+  <path class="track" d="M1179.83 -303V86.7348C1179.83 95.0191 1186.55 101.735 1194.83 101.735H1315.91C1324.2 101.735 1330.91 108.451 1330.91 116.735V213.5C1330.91 221.784 1337.63 228.5 1345.91 228.5H1485" fill="none" stroke="var(--circuit-track)" stroke-width="3"/>
+  <circle class="node" cx="1302" cy="404" r="3" fill="var(--color-primary)"/>
+  <circle class="node" cx="1180" cy="71" r="3" fill="var(--color-primary)"/>
+  <circle class="node" cx="305" cy="148.5" r="3" fill="var(--color-primary)"/>
+  <circle class="node" cx="305" cy="798.5" r="3" fill="var(--color-primary)"/>
+  <circle class="node" cx="154" cy="373" r="3" fill="var(--color-primary)"/>
+</svg>
