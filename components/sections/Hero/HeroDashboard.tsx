@@ -2,7 +2,7 @@
 
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "motion/react";
-import { LogoMark } from "@/components/icons";
+import { Logo } from "@/components/icons";
 import { useReducedMotion } from "@/lib/hooks/useReducedMotion";
 
 const fields: [string, string][] = [
@@ -59,8 +59,8 @@ export function HeroDashboard() {
         <div className="flex h-[440px]">
           {/* sidebar */}
           <aside className="hidden w-56 shrink-0 flex-col border-r border-border bg-surface-2/60 p-4 md:flex">
-            <div className="mb-5 flex items-center gap-2 font-display text-sm font-semibold text-fg">
-              <LogoMark className="h-6 w-6" /> ChainCore
+            <div className="mb-5 flex items-center text-fg">
+              <Logo className="h-6 w-auto" />
             </div>
             <div className="mb-4 flex items-center gap-2 rounded-md border border-border bg-surface px-2.5 py-1.5 text-xs text-muted-2">
               <span className="h-3 w-3 rounded-full border border-muted-2" /> Search

@@ -83,21 +83,5 @@ export const ShieldIcon = (p: IconProps) => (
   </svg>
 );
 
-export const LogoMark = (p: IconProps) => (
-  <svg width={28} height={28} viewBox="0 0 28 28" fill="none" {...p}>
-    <rect width="28" height="28" rx="9" fill="url(#lg)" />
-    <path
-      d="M14 7v14M7 14h14M9.4 9.4l9.2 9.2M18.6 9.4l-9.2 9.2"
-      stroke="#fff"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-    />
-    <circle cx="14" cy="14" r="2.4" fill="#fff" />
-    <defs>
-      <linearGradient id="lg" x1="0" y1="0" x2="28" y2="28">
-        <stop stopColor="#375DFB" />
-        <stop offset="1" stopColor="#80A1FF" />
-      </linearGradient>
-    </defs>
-  </svg>
-);
+
+export { Logo, LogoMark } from "./Logo";
