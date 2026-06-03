@@ -3,7 +3,7 @@
 import { motion } from "motion/react";
 import { Container } from "@/components/ui/Container";
 import { Section } from "@/components/ui/Section";
-import { SparkleIcon } from "@/components/icons";
+import { SparkleIcon } from "@/components/icons/all";
 import { fadeUp, staggerChildren } from "@/lib/animations/variants";
 import {
   ClientsMock,
@@ -67,7 +67,9 @@ export function Mission() {
               variants={fadeUp}
               className="group rounded-xl border border-border bg-surface p-6"
             >
-              <span className="font-display text-2xl font-semibold text-border-2">{n}</span>
+              <span className="font-display text-2xl font-semibold text-border-2">
+                {n}
+              </span>
               <div className="relative mt-4 flex h-64 items-center justify-center overflow-hidden rounded-lg bg-surface-2">
                 <div
                   aria-hidden

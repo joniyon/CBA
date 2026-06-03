@@ -3,7 +3,7 @@
 import { motion } from "motion/react";
 import { Container } from "@/components/ui/Container";
 import { Button } from "@/components/ui/Button";
-import { SparkleIcon, ArrowRightIcon } from "@/components/icons";
+import { SparkleIcon, ArrowRightIcon } from "@/components/icons/all";
 import { CircuitBackground } from "./CircuitBackground";
 import { HeroDashboard } from "./HeroDashboard";
 
