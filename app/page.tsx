@@ -2,7 +2,6 @@ import { Banner } from "@/components/sections/Banner";
 import { Hero } from "@/components/sections/Hero";
 import { Mission } from "@/components/sections/Mission";
 import { Tools } from "@/components/sections/Tools";
-import { sections } from "@/config/sections";
 
 /**
  * The home page renders sections in the order defined by config/sections.ts.
