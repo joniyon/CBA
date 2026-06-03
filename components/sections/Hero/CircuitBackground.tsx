@@ -1,8 +1,8 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import { runCircuitPulse } from "@/lib/animations/circuit";
 import { useReducedMotion } from "@/lib/hooks/useReducedMotion";
+import { runCircuitPulse } from "@/lib/animations/circuit";
 
 /** Track geometry lifted verbatim from Hero_Section.svg. */
 const TRACKS = [
@@ -29,7 +29,10 @@ export function CircuitBackground() {
     const tweens = pulseRefs.current
       .filter(Boolean)
       .map((p, i) =>
-        runCircuitPulse(p as SVGPathElement, { duration: 3 + i * 0.6, delay: i * 0.5 })
+        runCircuitPulse(p as SVGPathElement, {
+          duration: 3 + i * 0.6,
+          delay: i * 0.5,
+        }),
       );
     return () => tweens.forEach((t) => t.kill());
   }, [reduced]);
@@ -49,7 +52,12 @@ export function CircuitBackground() {
       >
         {TRACKS.map((d, i) => (
           <g key={i}>
-            <path d={d} stroke="var(--circuit-track)" strokeWidth={3} fill="none" />
+            <path
+              d={d}
+              stroke="var(--circuit-track)"
+              strokeWidth={3}
+              fill="none"
+            />
             <path
               ref={(el) => {
                 pulseRefs.current[i] = el;

@@ -4,8 +4,9 @@ import { motion } from "motion/react";
 import { Container } from "@/components/ui/Container";
 import { Section } from "@/components/ui/Section";
 import { Button } from "@/components/ui/Button";
-import { SparkleIcon, ArrowRightIcon } from "@/components/icons";
+// import { SparkleIcon, ArrowRightIcon } from "@/components/icons";
 import { BannerCanvas } from "./BannerCanvas";
+import { ArrowRightIcon, SparkleIcon } from "@/components/icons";
 
 const ease = [0.22, 1, 0.36, 1] as const;
 

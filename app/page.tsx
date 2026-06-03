@@ -1,3 +1,7 @@
+import { Banner } from "@/components/sections/Banner";
+import { Hero } from "@/components/sections/Hero";
+import { Mission } from "@/components/sections/Mission";
+import { Tools } from "@/components/sections/Tools";
 import { sections } from "@/config/sections";
 
 /**
@@ -7,9 +11,10 @@ import { sections } from "@/config/sections";
 export default function HomePage() {
   return (
     <main>
-      {sections.map(({ id, Component }) => (
-        <Component key={id} />
-      ))}
+      <Hero />
+      <Mission />
+      <Tools />
+      <Banner />
     </main>
   );
 }
