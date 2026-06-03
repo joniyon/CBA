@@ -1,6 +1,7 @@
 "use client";
 
-import { Logo, ChevronDownIcon } from "@/components/icons";
+import { ChevronDownIcon } from "@/components/icons/all";
+import { Logo } from "@/components/icons/Logo";
 import { Button } from "@/components/ui/Button";
 
 const links = [
@@ -13,7 +14,11 @@ export function Navbar() {
   return (
     <header className="pointer-events-none fixed inset-x-0 top-4 z-50 flex justify-center px-gutter">
       <nav className="pointer-events-auto flex items-center gap-6 rounded-full border border-border bg-surface/80 px-3 py-2 pl-5 shadow-[0_8px_30px_-12px_rgba(10,13,20,0.18)] backdrop-blur-xl">
-        <a href="/" className="flex items-center text-fg" aria-label="ChainCore home">
+        <a
+          href="/"
+          className="flex items-center text-fg"
+          aria-label="ChainCore home"
+        >
           <Logo className="h-6 w-auto" />
         </a>
 

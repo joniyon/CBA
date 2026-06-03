@@ -11,7 +11,7 @@ import {
   InsuranceIcon,
   ReportIcon,
   ShieldIcon,
-} from "@/components/icons";
+} from "@/components/icons/all";
 
 const tools = [
   {

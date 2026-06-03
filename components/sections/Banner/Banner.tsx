@@ -6,7 +6,7 @@ import { Section } from "@/components/ui/Section";
 import { Button } from "@/components/ui/Button";
 // import { SparkleIcon, ArrowRightIcon } from "@/components/icons";
 import { BannerCanvas } from "./BannerCanvas";
-import { ArrowRightIcon, SparkleIcon } from "@/components/icons";
+import { ArrowRightIcon, SparkleIcon } from "@/components/icons/all";
 
 const ease = [0.22, 1, 0.36, 1] as const;
 
